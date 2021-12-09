@@ -34,3 +34,15 @@ def main(request):
         request,
         'barcodeless/main.html'
     )
+
+def font(request):
+    return render(
+        request,
+        'barcodeless/font.html'
+    )
+
+def pay(request):
+    return render(
+        request,
+        'barcodeless/pay.html'
+    )

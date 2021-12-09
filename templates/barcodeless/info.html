@@ -1,6 +1,6 @@
 {% extends "barcodeless/base.html" %}
 {% block content %}
-{% comment %} 작성 부분 {% endcomment %}
+{% load static %}
 <div style='text-align:center;'>
 
   {% comment %} <div style="margin-top:50px; ">
@@ -8,20 +8,18 @@
   </div> {% endcomment %}
 
   <div style="margin-top:50px;">
-    <button type="button" class="btn btn-success" style='width:450px; border: none; height:120px; font-size:60px; color: #FF8B8E; font-weight:bold; background-color: #FFEFF7'>사용 설명서</button>
+    <button type="button" class="btn btn-success" style='width:450px; border: none; height:120px; font-size:60px; color: #FF8B8E; background-color: #FFEFF7'>사용 설명서</button>
   </div>
 
 
   <div class='container' style='margin:auto'> 
     <div class='row' style='margin:auto'>
       <div class="figure col-md-6" style='margin:auto; padding:50px'>
-        <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/8-col/img%20(73).jpg" class="figure-img img-fluid z-depth-1"
-          alt="..." style="width: 400px; border-radius: 15px; position:relative; ">
+        <img src="{% static 'barcodeless/info_01.png' %}" alt="info_01" class="figure-img img-fluid z-depth-1" style="width: 400px; border-radius: 15px; position:relative; ">
       </div>
 
       <div class="figure col-md-6" style='margin:auto; padding:50px'>
-        <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/8-col/img%20(73).jpg" class="figure-img img-fluid z-depth-1"
-          alt="..." style="width: 400px; border-radius: 15px; position:relative; ">
+        <img src="{% static 'barcodeless/info_02.png' %}" alt="info_02" class="figure-img img-fluid z-depth-1" style="width: 400px; border-radius: 15px; position:relative; ">
       </div>
     </div>
     <div class='row' style='margin:auto'>
@@ -38,7 +36,7 @@
 
   <div>
     <a href='/barcodeless/cam/'>
-        <button type="button" class="btn btn-success" style='width:350px; height:120px; font-size:50px;  border:none; color: #FF8B8E; font-weight:bold; background-color: #FFF89E;'>시작하기</button>
+        <button type="button" class="btn btn-success" style='width:350px; height:120px; font-size:50px;  border:none; color: #FF8B8E; background-color: #FFF89E;'>시작하기</button>
     </a>
 </div>
 
