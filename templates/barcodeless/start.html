@@ -1,0 +1,37 @@
+{% extends "barcodeless/base.html" %}
+{% block content %}
+{% load static %}
+{% comment %} 작성 부분 {% endcomment %}
+<div style="text-align:center; margin-top:100px;">
+    <h2 style="text-align:center; font-weight: bold; font-size: 50px; color: #FF8B8E">
+        원하시는 계산 방법을 선택하세요
+    </h2>
+</div>
+
+<div style='text-align:center; margin-top:100px;'>
+    <div class='container'>
+        <div class='row' style="height:350px; margin-bottom: 25px;">
+            <div class="col-3"></div>
+            <div class='col-6' style="border:solid 6px #70bfb9; border-radius:20px;">
+                <h1 style="margin-top:20px;">바코드</h1>
+                <button class="btn" id="btn" type="submit" >
+                    <img src="{% static "barcodeless/barcode.png" %}>
+                </button>
+            </div>
+            <div class="col-3"></div>
+        </div>
+        <div class="row" style="height:350px; margin-top:70px;">
+            <div class="col-3"></div>
+                <div class='col-6' style="border:solid 6px #70bfb9; border-radius:20px;">
+                    <a href='/barcodeless/info/' style='text-decoration:none; color:black;'>
+                        <h1 style="margin-top:20px;">촬영</h1>
+                        <button class="btn" id="submit">
+                            <img class="btn-img" src="{% static 'static/barcodeless/cam.png' %}" alt="cam">
+                        </button>
+                    </a>
+                </div>
+            <div class="col-3"></div>
+        </div>
+    </div>
+</div>
+{% endblock %}
