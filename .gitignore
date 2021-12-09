@@ -1,0 +1,11 @@
+conf/__pycache__/__init__.cpython-310.pyc
+conf/__pycache__/settings.cpython-310.pyc
+conf/__pycache__/urls.cpython-310.pyc
+conf/__pycache__/wsgi.cpython-310.pyc
+barcodeless/migrations/__pycache__/__init__.cpython-310.pyc
+barcodeless/__pycache__/__init__.cpython-310.pyc
+barcodeless/__pycache__/admin.cpython-310.pyc
+barcodeless/__pycache__/apps.cpython-310.pyc
+barcodeless/__pycache__/models.cpython-310.pyc
+barcodeless/__pycache__/urls.cpython-310.pyc
+barcodeless/__pycache__/views.cpython-310.pyc
