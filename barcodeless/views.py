@@ -30,9 +30,14 @@ def pay(request):
     )
 
 def main(request):
+
+    context = {
+            "items" : [["누가바", 400, 2], ["빵또아", 1000, 3]],
+    }
     return render(
         request,
-        'barcodeless/main.html'
+        'barcodeless/main.html',
+        context
     )
 
 def font(request):

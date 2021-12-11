@@ -65,6 +65,7 @@
             width: 10%;
         }
     .basketdiv .check input[type=checkbox] {
+        color: #70BFB9;
         transform: scale(1.5);
     }
     .basketdiv .img{
@@ -180,14 +181,13 @@
 .buttongroup a{
   text-decoration: none;
 }
+
 .cmd a, .cmd span {
-    padding: 12px 30px;
+    padding: 10px 30px;
     box-sizing: border-box;
-    margin-top: 10px;
-    font-size: 1.2em;
-    color: #000;
-    background-color: #f4f4f4;
-    border: 1px solid #e0e0e0;
+    margin-top: 1px;
+    font-size: 1.3em;
+    color: #70BFB9;
     text-align: center;
 }
 .cmd.small a, .cmd.small span {
@@ -196,7 +196,8 @@
 }
 
 .orderform .p_num {
-    text-align: right;
+    text-align: center;
     width: 40px;
     font-size: 1em;
+    background-color: #FFEFF7;
 }

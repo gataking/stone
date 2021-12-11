@@ -20,7 +20,7 @@
             <div class="basketdiv" id="basket">
                 <div class="row head">
                     <div class="subdiv">
-                        <div class="check">선택</div>
+                        <div class="check" style="display:none;">선택</div>
                         <div class="pname">상품명</div>
                     </div>
                     <div class="subdiv">
@@ -34,10 +34,37 @@
                     </div>
                     <div class="split"></div>
                 </div>
-        
-                <div class="row data">
+
+                {% if items %}
+                    {% for item in items %}
+                        <div class="row data">
+                            <div class="subdiv">
+                                <div class="check" style="display:none;"><input type="checkbox" name="buy" value="262" checked="" onclick="javascript:basket.checkItem();">&nbsp;</div>
+                                <div class="pname">
+                                    <span>{{ item.0 }}</span>
+                                </div>
+                            </div>
+                            <div class="subdiv">
+                                <div class="basketprice"><input type="hidden" name="p_price" id="p_price3" class="p_price" value="{{item.1}}">{{item.1}}원</div>
+                                <div class="num">
+                                    <div class="updown">
+                                        <input type="text" name="p_num{{ forloop.counter }}" id="p_num{{ forloop.counter }}" size="2" maxlength="4" class="p_num" value="{{item.2}}" onkeyup="javascript:basket.changePNum({{ forloop.counter }});">
+                                        <span onclick="javascript:basket.changePNum({{ forloop.counter }});"><i class="fas fa-arrow-alt-circle-up up"></i></span>
+                                        <span onclick="javascript:basket.changePNum({{ forloop.counter }});"><i class="fas fa-arrow-alt-circle-down down"></i></span>
+                                    </div>
+                                </div>
+                                <div class="sum">0원</div>
+                            </div>
+                            <div class="subdiv">
+                                <div class="basketcmd"><a href="javascript:void(0)" class="abutton" onclick="javascript:basket.delItem();">삭제</a></div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                {% endif %}
+                
+                {% comment %} <div class="row data">
                     <div class="subdiv">
-                        <div class="check"><input type="checkbox" name="buy" value="260" checked="" onclick="javascript:basket.checkItem();">&nbsp;</div>
+                        <div class="check" style="display:none;"><input type="checkbox" name="buy" value="260" checked="" onclick="javascript:basket.checkItem();">&nbsp;</div>
                         <div class="pname">
                             <span>구구크러스트</span>
                         </div>
@@ -57,9 +84,10 @@
                         <div class="basketcmd"><a href="javascript:void(0)" class="abutton" onclick="javascript:basket.delItem();">삭제</a></div>
                     </div>
                 </div>
+
                 <div class="row data">
                     <div class="subdiv">
-                        <div class="check"><input type="checkbox" name="buy" value="261" checked="" onclick="javascript:basket.checkItem();">&nbsp;</div>
+                        <div class="check" style="display:none;"><input type="checkbox" name="buy" value="261" checked="" onclick="javascript:basket.checkItem();">&nbsp;</div>
                         <div class="pname">
                             <span>노바 요거팜(JP-268T)</span>
                         </div>
@@ -79,9 +107,10 @@
                         <div class="basketcmd"><a href="javascript:void(0)" class="abutton" onclick="javascript:basket.delItem();">삭제</a></div>
                     </div>
                 </div>
+
                 <div class="row data">
                     <div class="subdiv">
-                        <div class="check"><input type="checkbox" name="buy" value="262" checked="" onclick="javascript:basket.checkItem();">&nbsp;</div>
+                        <div class="check" style="display:none;"><input type="checkbox" name="buy" value="262" checked="" onclick="javascript:basket.checkItem();">&nbsp;</div>
                         <div class="pname">
                             <span>아날도 바시니 보스톤 가방 </span>
                         </div>
@@ -100,12 +129,12 @@
                     <div class="subdiv">
                         <div class="basketcmd"><a href="javascript:void(0)" class="abutton" onclick="javascript:basket.delItem();">삭제</a></div>
                     </div>
-                </div>
-        
+                </div> {% endcomment %}
+
             </div>
     
             <div class="right-align basketrowcmd">
-                <a href="javascript:void(0)" class="abutton" onclick="javascript:basket.delCheckedItem();">선택상품삭제</a>
+                <a href="javascript:void(0)" class="abutton" onclick="javascript:basket.delCheckedItem();" style="display:none;">선택상품삭제</a>
                 <a href="javascript:void(0)" class="abutton" onclick="javascript:basket.delAllItem();">장바구니비우기</a>
             </div>
     
@@ -115,18 +144,16 @@
             <div id="goorder" class="">
                 <div class="clear"></div>
                 <div class="buttongroup center-align cmd">
-                    <a href='/barcodeless/pay/'></a>
+                    <a href='/barcodeless/pay/'>
                         <button type="button" class="btn btn-success" style='width:300px; height:100px; font-size:35px;  border:none; color: #FF8B8E; background-color: #FFF89E;'>선택한 상품 주문</button>
+                    </a>
                 </div>
             </div>
         </form>
-
-
-
 </body>
 
 
-<div style= 'text-align:center;'>
+<div style= 'text-align:center; margin-top:20px;'>
     <div>
         <a href='/barcodeless/cam/'>
             <button type="button" class="btn btn-success" style='width:300px; height:100px; font-size:40px;  border:none; color: #FF8B8E; background-color: #FFF89E;'>다시 촬영하기</button>

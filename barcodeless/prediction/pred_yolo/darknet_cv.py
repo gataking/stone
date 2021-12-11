@@ -82,5 +82,5 @@ def main(IMAGE_PATH):
 
 
 if __name__ in "__main__":
-    TEST_IMG_PATH = 'wakuwaku.jpg'
+    TEST_IMG_PATH = 'test1.jpg'
     main(TEST_IMG_PATH)

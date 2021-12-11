@@ -3,45 +3,45 @@
 {% load static %}
 
 
-<div style='text-align:center; margin-top:70px;'>
-    <div>
-        <style>
-            #container {
-                margin: 0px auto;
-                width: 600px;
-                height: 600px;
-                border: 10px #333 solid;
-            }
-            #videoElement {
-                width: 580px;
-                height: 580px;
-                background-color: #666;
-            }
-        </style>
-        <div id="container">
-            <video autoplay="true" id="videoElement">
-            
-            </video>
+
+
+<div class="container">
+    <div class="image-upload" id="image-upload">
+
+        <form method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            <div class="button">
+                <label for="chooseFile">
+                    👉 CLICK HERE! 👈
+                </label>
+            </div>
+            <input type="file" id="chooseFile" name="chooseFile" accept="image/*" onchange="loadFile(this)">
+        </form>
+
+        <div class="fileContainer">
+            <div class="fileInput">
+                <p>FILE NAME: </p>
+                <p id="fileName"></p>
+            </div>
+            <div class="buttonContainer">
+                <div class="submitButton" id="submitButton">SUBMIT</div>
+            </div>
         </div>
-        <script>
-            var video = document.querySelector("#videoElement");
-
-            if (navigator.mediaDevices.getUserMedia) {
-            navigator.mediaDevices.getUserMedia({ video: true })
-                .then(function (stream) {
-                video.srcObject = stream;
-                })
-                .catch(function (err0r) {
-                console.log("Something went wrong!");
-                });
-            }
-        </script>
     </div>
+    
+    <div class="image-show" id="image-show" style='height:500px'></div>
 
-    <div style='margin-top:70px;'>
-        <a href='/barcodeless/main/'>
-            <button type="button" class="btn btn-success" style='width:350px; height:120px; font-size:50px;  border:none; color: #FF8B8E; background-color: #FFF89E;'>촬영하기</button>
-        </a>
-    </div>
-</div>  
+    <div style='text-align:center; margin-top:0px;'>  
+        <div style='margin-top:70px; text-align:center; margin-top:70px;'>
+            <a href='/barcodeless/main/'>
+                <button type="button" class="btn btn-success" style='width:350px; height:120px; font-size:50px;  border:none; color: #FF8B8E; background-color: #FFF89E;'>촬영하기</button>
+            </a>
+        </div>
+    </div>  
+</div>
+
+<script src="{% static 'barcodeless/index.js' %}"></script>
+
+
 {% endblock %}
+

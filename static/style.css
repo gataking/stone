@@ -14,3 +14,7 @@ body {
     font-family: "TTTogether";
     font-weight: 100; 
 }
+
+div.data > .subdiv > .pname{
+    padding-left: 50px;
+}
