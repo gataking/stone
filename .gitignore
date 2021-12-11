@@ -9,3 +9,4 @@ barcodeless/__pycache__/apps.cpython-310.pyc
 barcodeless/__pycache__/models.cpython-310.pyc
 barcodeless/__pycache__/urls.cpython-310.pyc
 barcodeless/__pycache__/views.cpython-310.pyc
+barcodeless/prediction/pred_yolo/yolov4-obj_2_best.weights

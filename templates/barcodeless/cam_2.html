@@ -2,18 +2,6 @@
 {% block content %}
 {% load static %}
 
---- a/ipcamera/app/templates/design/html/live.html
-+++ b/ipcamera/app/templates/design/html/live.html
-@@ -31,8 +31,8 @@
-       <h3>Camera Live</h3>
-       <div class="con">
-         <!-- Your Connection -->
--        <img src="../../resources/images/soha.jpg" width="1000" border="2">
--               <!-- Your Connection | end -->
-+               <img style="-webkit-user-select: none;" src="{% url 'stream2' %}" width="640" height="480">^M
-+               <!--` Your Connection | end -->^M
-
-
 <div style='text-align:center; margin-top:100px;'>
     <div>
         <style>
