@@ -13,3 +13,371 @@ barcodeless/prediction/pred_yolo/yolov4-obj_2_best.weights
 django.cert
 django.key
 django.pem
+barcodeless/__pycache__/__init__.cpython-39.pyc
+barcodeless/__pycache__/admin.cpython-39.pyc
+barcodeless/__pycache__/apps.cpython-39.pyc
+barcodeless/__pycache__/models.cpython-39.pyc
+barcodeless/__pycache__/urls.cpython-39.pyc
+barcodeless/__pycache__/views.cpython-39.pyc
+barcodeless/migrations/__pycache__/__init__.cpython-38.pyc
+barcodeless/migrations/__pycache__/__init__.cpython-39.pyc
+barcodeless/migrations/__pycache__/0001_initial.cpython-39.pyc
+barcodeless/migrations/__pycache__/0001_initial.cpython-310.pyc
+barcodeless/prediction/__pycache__/__init__.cpython-39.pyc
+barcodeless/prediction/__pycache__/__init__.cpython-310.pyc
+barcodeless/prediction/hong/__init__.py
+barcodeless/prediction/hong/darknet_cv.py
+barcodeless/prediction/hong/image.py
+barcodeless/prediction/hong/kimhs.py
+barcodeless/prediction/hong/obj.names
+barcodeless/prediction/hong/test1.jpg
+barcodeless/prediction/hong/test2.jpg
+barcodeless/prediction/hong/test3.jpg
+barcodeless/prediction/hong/test4.jpg
+barcodeless/prediction/hong/test5.jpg
+barcodeless/prediction/hong/yolo_effi.py
+barcodeless/prediction/hong/yolov4-obj_2_best.weights
+barcodeless/prediction/hong/yolov4-obj_2.cfg
+barcodeless/prediction/hong/yolov4-obj_4_add_best.weights
+barcodeless/prediction/hong/yolov4-obj_4_add.cfg
+barcodeless/prediction/hong/__pycache__/darknet_cv.cpython-39.pyc
+barcodeless/prediction/hong/efficient_weights/bar_predict.pt
+barcodeless/prediction/hong/efficient_weights/bucket_predict.pt
+barcodeless/prediction/hong/efficient_weights/corn_predict.pt
+barcodeless/prediction/hong/efficient_weights/drink_predict.pt
+barcodeless/prediction/hong/efficient_weights/sand_predict.pt
+barcodeless/prediction/hong/efficient_weights/snack_predict.pt
+barcodeless/prediction/hong/test images/1/IMG_0624.jpg
+barcodeless/prediction/hong/test images/1/IMG_0625.jpg
+barcodeless/prediction/hong/test images/1/IMG_0626.jpg
+barcodeless/prediction/hong/test images/1/IMG_0627.jpg
+barcodeless/prediction/hong/test images/1/IMG_0628.jpg
+barcodeless/prediction/hong/test images/1/IMG_0629.jpg
+barcodeless/prediction/hong/test images/1/IMG_0630.jpg
+barcodeless/prediction/hong/test images/1/IMG_0631.jpg
+barcodeless/prediction/hong/test images/1/IMG_0632.jpg
+barcodeless/prediction/hong/test images/1/IMG_0633.jpg
+barcodeless/prediction/hong/test images/1/IMG_0634.jpg
+barcodeless/prediction/hong/test images/1/IMG_0635.jpg
+barcodeless/prediction/hong/test images/1/IMG_0636.jpg
+barcodeless/prediction/hong/test images/1/IMG_0637.jpg
+barcodeless/prediction/hong/test images/1/IMG_0638.jpg
+barcodeless/prediction/hong/test images/1/IMG_0639.jpg
+barcodeless/prediction/hong/test images/1/IMG_0640.jpg
+barcodeless/prediction/hong/test images/1/IMG_0641.jpg
+barcodeless/prediction/hong/test images/1/IMG_0642.jpg
+barcodeless/prediction/hong/test images/1/IMG_0643.jpg
+barcodeless/prediction/hong/test images/1/IMG_0644.jpg
+barcodeless/prediction/hong/test images/1/IMG_0645.jpg
+barcodeless/prediction/hong/test images/1/IMG_0646.jpg
+barcodeless/prediction/hong/test images/1/IMG_0647.jpg
+barcodeless/prediction/hong/test images/1/IMG_0648.jpg
+barcodeless/prediction/hong/test images/1/IMG_0649.jpg
+barcodeless/prediction/hong/test images/1/IMG_0650.jpg
+barcodeless/prediction/hong/test images/1/IMG_0651.jpg
+barcodeless/prediction/hong/test images/1/IMG_0652.jpg
+barcodeless/prediction/hong/test images/1/IMG_0653.jpg
+barcodeless/prediction/hong/test images/1/IMG_0654.jpg
+barcodeless/prediction/hong/test images/1/IMG_0655.jpg
+barcodeless/prediction/hong/test images/1/IMG_0656.jpg
+barcodeless/prediction/hong/test images/1/IMG_0657.jpg
+barcodeless/prediction/hong/test images/1/IMG_0658.jpg
+barcodeless/prediction/hong/test images/1/IMG_0659.jpg
+barcodeless/prediction/hong/test images/1/IMG_0660.jpg
+barcodeless/prediction/hong/test images/1/IMG_0661.jpg
+barcodeless/prediction/hong/test images/1/IMG_0662.jpg
+barcodeless/prediction/hong/test images/1/IMG_0663.jpg
+barcodeless/prediction/hong/test images/1/IMG_0664.jpg
+barcodeless/prediction/hong/test images/1/IMG_0665.jpg
+barcodeless/prediction/hong/test images/1/IMG_0666.jpg
+barcodeless/prediction/hong/test images/1/IMG_0667.jpg
+barcodeless/prediction/hong/test images/1/IMG_0668.jpg
+barcodeless/prediction/hong/test images/1/IMG_0669.jpg
+barcodeless/prediction/hong/test images/1/IMG_0670.jpg
+barcodeless/prediction/hong/test images/1/IMG_0671.jpg
+barcodeless/prediction/hong/test images/1/IMG_0672.jpg
+barcodeless/prediction/hong/test images/1/IMG_0673.jpg
+barcodeless/prediction/hong/test images/1/IMG_0674.jpg
+barcodeless/prediction/hong/test images/1/IMG_0675.jpg
+barcodeless/prediction/hong/test images/1/IMG_0676.jpg
+barcodeless/prediction/hong/test images/1/IMG_0677.jpg
+barcodeless/prediction/hong/test images/1/IMG_0678.jpg
+barcodeless/prediction/hong/test images/1/IMG_0679.jpg
+barcodeless/prediction/hong/test images/1/IMG_0680.jpg
+barcodeless/prediction/hong/test images/1/IMG_0681.jpg
+barcodeless/prediction/hong/test images/1/IMG_0682.jpg
+barcodeless/prediction/hong/test images/1/IMG_0683.jpg
+barcodeless/prediction/hong/test images/1/IMG_0684.jpg
+barcodeless/prediction/hong/test images/1/IMG_0685.jpg
+barcodeless/prediction/hong/test images/1/IMG_0686.jpg
+barcodeless/prediction/hong/test images/1/IMG_0687.jpg
+barcodeless/prediction/hong/test images/1/IMG_0688.jpg
+barcodeless/prediction/hong/test images/1/IMG_0689.jpg
+barcodeless/prediction/hong/test images/1/IMG_0690.jpg
+barcodeless/prediction/hong/test images/1/IMG_0691.jpg
+barcodeless/prediction/hong/test images/1/IMG_0692.jpg
+barcodeless/prediction/hong/test images/1/IMG_0693.jpg
+barcodeless/prediction/hong/test images/1/IMG_0694.jpg
+barcodeless/prediction/hong/test images/1/IMG_0695.jpg
+barcodeless/prediction/hong/test images/1/IMG_0696.jpg
+barcodeless/prediction/hong/test images/1/IMG_0697.jpg
+barcodeless/prediction/hong/test images/1/IMG_0698.jpg
+barcodeless/prediction/hong/test images/1/IMG_0699.jpg
+barcodeless/prediction/hong/test images/1/IMG_0700.jpg
+barcodeless/prediction/hong/test images/1/IMG_0701.jpg
+barcodeless/prediction/hong/test images/1/IMG_0702.jpg
+barcodeless/prediction/hong/test images/1/IMG_0703.jpg
+barcodeless/prediction/hong/test images/1/IMG_0704.jpg
+barcodeless/prediction/hong/test images/1/IMG_0705.jpg
+barcodeless/prediction/hong/test images/1/IMG_0706.jpg
+barcodeless/prediction/hong/test images/1/IMG_0707.jpg
+barcodeless/prediction/hong/test images/1/IMG_0708.jpg
+barcodeless/prediction/hong/test images/1/IMG_0709.jpg
+barcodeless/prediction/hong/test images/1/IMG_0710.jpg
+barcodeless/prediction/hong/test images/1/IMG_0711.jpg
+barcodeless/prediction/hong/test images/1/IMG_0712.jpg
+barcodeless/prediction/hong/test images/1/IMG_0713.jpg
+barcodeless/prediction/hong/test images/1/IMG_0714.jpg
+barcodeless/prediction/hong/test images/1/IMG_0715.jpg
+barcodeless/prediction/hong/test images/1/IMG_0716.jpg
+barcodeless/prediction/hong/test images/1/IMG_0717.jpg
+barcodeless/prediction/hong/test images/1/IMG_0718.jpg
+barcodeless/prediction/hong/test images/1/IMG_0719.jpg
+barcodeless/prediction/hong/test images/1/IMG_0720.jpg
+barcodeless/prediction/hong/test images/1/IMG_0721.jpg
+barcodeless/prediction/hong/test images/1/IMG_0722.jpg
+barcodeless/prediction/hong/test images/1/IMG_0723.jpg
+barcodeless/prediction/hong/test images/1/IMG_0724.jpg
+barcodeless/prediction/hong/test images/1/IMG_0725.jpg
+barcodeless/prediction/hong/test images/1/IMG_0726.jpg
+barcodeless/prediction/hong/test images/1/IMG_0727.jpg
+barcodeless/prediction/hong/test images/1/IMG_0728.jpg
+barcodeless/prediction/hong/test images/1/IMG_0729.jpg
+barcodeless/prediction/hong/test images/1/IMG_0730.jpg
+barcodeless/prediction/hong/test images/1/IMG_0731.jpg
+barcodeless/prediction/hong/test images/1/IMG_0732.jpg
+barcodeless/prediction/hong/test images/1/IMG_0733.jpg
+barcodeless/prediction/hong/test images/1/IMG_0734.jpg
+barcodeless/prediction/hong/test images/1/IMG_0735.jpg
+barcodeless/prediction/hong/test images/1/IMG_0736.jpg
+barcodeless/prediction/hong/test images/1/IMG_0737.jpg
+barcodeless/prediction/hong/test images/1/IMG_0742.jpg
+barcodeless/prediction/hong/test images/1/IMG_0743.jpg
+barcodeless/prediction/hong/test images/1/IMG_0744.jpg
+barcodeless/prediction/hong/test images/1/IMG_0745.jpg
+barcodeless/prediction/hong/test images/1/IMG_0746.jpg
+barcodeless/prediction/hong/test images/1/IMG_0747.jpg
+barcodeless/prediction/hong/test images/1/IMG_0748.jpg
+barcodeless/prediction/hong/test images/1/IMG_0749.jpg
+barcodeless/prediction/hong/test images/1/IMG_0750.jpg
+barcodeless/prediction/hong/test images/1/IMG_0751.jpg
+barcodeless/prediction/hong/test images/1/IMG_0752.jpg
+barcodeless/prediction/hong/test images/1/IMG_0753.jpg
+barcodeless/prediction/hong/test images/1/IMG_0754.jpg
+barcodeless/prediction/hong/test images/1/IMG_0755.jpg
+barcodeless/prediction/hong/test images/1/IMG_0756.jpg
+barcodeless/prediction/hong/test images/2/IMG_0757.jpg
+barcodeless/prediction/hong/test images/2/IMG_0758.jpg
+barcodeless/prediction/hong/test images/2/IMG_0759.jpg
+barcodeless/prediction/hong/test images/2/IMG_0760.jpg
+barcodeless/prediction/hong/test images/2/IMG_0761.jpg
+barcodeless/prediction/hong/test images/2/IMG_0762.jpg
+barcodeless/prediction/hong/test images/2/IMG_0763.jpg
+barcodeless/prediction/hong/test images/2/IMG_0764.jpg
+barcodeless/prediction/hong/test images/2/IMG_0765.jpg
+barcodeless/prediction/hong/test images/2/IMG_0766.jpg
+barcodeless/prediction/hong/test images/2/IMG_0767.jpg
+barcodeless/prediction/hong/test images/2/IMG_0768.jpg
+barcodeless/prediction/hong/test images/2/IMG_0769.jpg
+barcodeless/prediction/hong/test images/2/IMG_0770.jpg
+barcodeless/prediction/hong/test images/2/IMG_0771.jpg
+barcodeless/prediction/hong/test images/2/IMG_0772.jpg
+barcodeless/prediction/hong/test images/2/IMG_0773.jpg
+barcodeless/prediction/hong/test images/2/IMG_0774.jpg
+barcodeless/prediction/hong/test images/2/IMG_0775.jpg
+barcodeless/prediction/hong/test images/2/IMG_0776.jpg
+barcodeless/prediction/hong/test images/2/IMG_0777.jpg
+barcodeless/prediction/hong/test images/2/IMG_0778.jpg
+barcodeless/prediction/hong/test images/2/IMG_0779.jpg
+barcodeless/prediction/hong/test images/2/IMG_0780.jpg
+barcodeless/prediction/hong/test images/2/IMG_0781.jpg
+barcodeless/prediction/hong/test images/2/IMG_0782.jpg
+barcodeless/prediction/hong/test images/2/IMG_0783.jpg
+barcodeless/prediction/hong/test images/2/IMG_0784.jpg
+barcodeless/prediction/hong/test images/2/IMG_0785.jpg
+barcodeless/prediction/hong/test images/2/IMG_0786.jpg
+barcodeless/prediction/hong/test images/2/IMG_0787.jpg
+barcodeless/prediction/hong/test images/2/IMG_0788.jpg
+barcodeless/prediction/hong/test images/2/IMG_0789.jpg
+barcodeless/prediction/hong/test images/2/IMG_0790.jpg
+barcodeless/prediction/hong/test images/2/IMG_0791.jpg
+barcodeless/prediction/hong/test images/2/IMG_0792.jpg
+barcodeless/prediction/hong/test images/2/IMG_0793.jpg
+barcodeless/prediction/hong/test images/2/IMG_0794.jpg
+barcodeless/prediction/hong/test images/2/IMG_0795.jpg
+barcodeless/prediction/hong/test images/2/IMG_0796.jpg
+barcodeless/prediction/hong/test images/2/IMG_0797.jpg
+barcodeless/prediction/hong/test images/2/IMG_0798.jpg
+barcodeless/prediction/hong/test images/2/IMG_0799.jpg
+barcodeless/prediction/hong/test images/2/IMG_0800.jpg
+barcodeless/prediction/hong/test images/2/IMG_0801.jpg
+barcodeless/prediction/hong/test images/2/IMG_0802.jpg
+barcodeless/prediction/hong/test images/2/IMG_0803.jpg
+barcodeless/prediction/hong/test images/2/IMG_0804.jpg
+barcodeless/prediction/hong/test images/2/IMG_0805.jpg
+barcodeless/prediction/hong/test images/2/IMG_0806.jpg
+barcodeless/prediction/hong/test images/2/IMG_0807.jpg
+barcodeless/prediction/hong/test images/2/IMG_0808.jpg
+barcodeless/prediction/hong/test images/2/IMG_0809.jpg
+barcodeless/prediction/hong/test images/2/IMG_0810.jpg
+barcodeless/prediction/hong/test images/2/IMG_0811.jpg
+barcodeless/prediction/hong/test images/2/IMG_0812.jpg
+barcodeless/prediction/hong/test images/2/IMG_0813.jpg
+barcodeless/prediction/hong/test images/2/IMG_0814.jpg
+barcodeless/prediction/hong/test images/2/IMG_0815.jpg
+barcodeless/prediction/hong/test images/2/IMG_0816.jpg
+barcodeless/prediction/hong/test images/2/IMG_0817.jpg
+barcodeless/prediction/hong/test images/2/IMG_0818.jpg
+barcodeless/prediction/hong/test images/2/IMG_0819.jpg
+barcodeless/prediction/hong/test images/2/IMG_0820.jpg
+barcodeless/prediction/hong/test images/2/IMG_0821.jpg
+barcodeless/prediction/hong/test images/2/IMG_0822.jpg
+barcodeless/prediction/hong/test images/2/IMG_0823.jpg
+barcodeless/prediction/hong/test images/2/IMG_0824.jpg
+barcodeless/prediction/hong/test images/2/IMG_0825.jpg
+barcodeless/prediction/hong/test images/2/IMG_0826.jpg
+barcodeless/prediction/hong/test images/2/IMG_0827.jpg
+barcodeless/prediction/hong/test images/2/IMG_0828.jpg
+barcodeless/prediction/hong/test images/2/IMG_0829.jpg
+barcodeless/prediction/hong/test images/2/IMG_0830.jpg
+barcodeless/prediction/hong/test images/2/IMG_0831.jpg
+barcodeless/prediction/hong/test images/2/IMG_0832.jpg
+barcodeless/prediction/hong/test images/2/IMG_0833.jpg
+barcodeless/prediction/hong/test images/2/IMG_0834.jpg
+barcodeless/prediction/hong/test images/2/IMG_0835.jpg
+barcodeless/prediction/hong/test images/2/IMG_0836.jpg
+barcodeless/prediction/hong/test images/2/IMG_0837.jpg
+barcodeless/prediction/hong/test images/2/IMG_0838.jpg
+barcodeless/prediction/hong/test images/2/IMG_0839.jpg
+barcodeless/prediction/hong/test images/2/IMG_0840.jpg
+barcodeless/prediction/hong/test images/2/IMG_0841.jpg
+barcodeless/prediction/hong/test images/2/IMG_0842.jpg
+barcodeless/prediction/hong/test images/2/IMG_0843.jpg
+barcodeless/prediction/hong/test images/2/IMG_0844.jpg
+barcodeless/prediction/hong/test images/2/IMG_0845.jpg
+barcodeless/prediction/hong/test images/2/IMG_0846.jpg
+barcodeless/prediction/hong/test images/2/IMG_0847.jpg
+barcodeless/prediction/hong/test images/2/IMG_0848.jpg
+barcodeless/prediction/hong/test images/2/IMG_0849.jpg
+barcodeless/prediction/hong/test images/2/IMG_0850.jpg
+barcodeless/prediction/hong/test images/2/IMG_0851.jpg
+barcodeless/prediction/hong/test images/2/IMG_0852.jpg
+barcodeless/prediction/hong/test images/2/IMG_0853.jpg
+barcodeless/prediction/hong/test images/2/IMG_0854.jpg
+barcodeless/prediction/hong/test images/2/IMG_0855.jpg
+barcodeless/prediction/hong/test images/2/IMG_0856.jpg
+barcodeless/prediction/hong/test images/2/IMG_0857.jpg
+barcodeless/prediction/hong/test images/2/IMG_0858.jpg
+barcodeless/prediction/hong/test images/2/IMG_0859.jpg
+barcodeless/prediction/hong/test images/2/IMG_0860.jpg
+barcodeless/prediction/hong/test images/2/IMG_0861.jpg
+barcodeless/prediction/hong/test images/2/IMG_0862.jpg
+barcodeless/prediction/hong/test images/2/IMG_0863.jpg
+barcodeless/prediction/hong/test images/2/IMG_0864.jpg
+barcodeless/prediction/hong/test images/2/IMG_0865.jpg
+barcodeless/prediction/hong/test images/2/IMG_0866.jpg
+barcodeless/prediction/hong/test images/2/IMG_0867.jpg
+barcodeless/prediction/hong/test images/2/IMG_0868.jpg
+barcodeless/prediction/hong/test images/2/IMG_0869.jpg
+barcodeless/prediction/hong/test images/2/IMG_0870.jpg
+barcodeless/prediction/hong/test images/2/IMG_0871.jpg
+barcodeless/prediction/hong/test images/2/IMG_0872.jpg
+barcodeless/prediction/hong/test images/2/IMG_0876.jpg
+barcodeless/prediction/hong/test images/2/IMG_0877.jpg
+barcodeless/prediction/hong/test images/2/IMG_0878.jpg
+barcodeless/prediction/hong/test images/2/IMG_0879.jpg
+barcodeless/prediction/hong/test images/2/IMG_0880.jpg
+barcodeless/prediction/hong/test images/2/IMG_0881.jpg
+barcodeless/prediction/hong/test images/2/IMG_0882.jpg
+barcodeless/prediction/hong/test images/2/IMG_0883.jpg
+barcodeless/prediction/hong/test images/2/IMG_0884.jpg
+barcodeless/prediction/hong/test images/2/IMG_0885.jpg
+barcodeless/prediction/hong/test images/2/IMG_0886.jpg
+barcodeless/prediction/hong/test images/2/IMG_0887.jpg
+barcodeless/prediction/hong/test images/2/IMG_0888.jpg
+barcodeless/prediction/hong/test images/2/IMG_0889.jpg
+barcodeless/prediction/hong/test images/2/IMG_0890.jpg
+barcodeless/prediction/hong/test images/2/IMG_0891.jpg
+barcodeless/prediction/hong/test images/2/IMG_0892.jpg
+barcodeless/prediction/hong/test images/2/IMG_0893.jpg
+barcodeless/prediction/hong/test images/2/IMG_0894.jpg
+barcodeless/prediction/hong/test images/3/IMG_0895.jpg
+barcodeless/prediction/hong/test images/3/IMG_0896.jpg
+barcodeless/prediction/hong/test images/3/IMG_0897.jpg
+barcodeless/prediction/hong/test images/3/IMG_0898.jpg
+barcodeless/prediction/hong/test images/3/IMG_0899.jpg
+barcodeless/prediction/hong/test images/3/IMG_0900.jpg
+barcodeless/prediction/hong/test images/3/IMG_0901.jpg
+barcodeless/prediction/hong/test images/3/IMG_0902.jpg
+barcodeless/prediction/hong/test images/3/IMG_0903.jpg
+barcodeless/prediction/hong/test images/3/IMG_0904.jpg
+barcodeless/prediction/hong/test images/3/IMG_0905.jpg
+barcodeless/prediction/hong/test images/3/IMG_0906.jpg
+barcodeless/prediction/hong/test images/3/IMG_0907.jpg
+barcodeless/prediction/hong/test images/3/IMG_0908.jpg
+barcodeless/prediction/hong/test images/3/IMG_0909.jpg
+barcodeless/prediction/hong/test images/3/IMG_0910.jpg
+barcodeless/prediction/hong/test images/3/IMG_0911.jpg
+barcodeless/prediction/hong/test images/3/IMG_0912.jpg
+barcodeless/prediction/hong/test images/3/IMG_0913.jpg
+barcodeless/prediction/hong/test images/3/IMG_0914.jpg
+barcodeless/prediction/hong/test images/3/IMG_0915.jpg
+barcodeless/prediction/hong/test images/3/IMG_0916.jpg
+barcodeless/prediction/hong/test images/3/IMG_0917.jpg
+barcodeless/prediction/hong/test images/3/IMG_0918.jpg
+barcodeless/prediction/hong/test images/3/IMG_0919.jpg
+barcodeless/prediction/hong/test images/3/IMG_0920.jpg
+barcodeless/prediction/hong/test images/3/IMG_0921.jpg
+barcodeless/prediction/hong/test images/3/IMG_0922.jpg
+barcodeless/prediction/hong/test images/3/IMG_0923.jpg
+barcodeless/prediction/hong/test images/3/IMG_0924.jpg
+barcodeless/prediction/hong/test images/3/IMG_0925.jpg
+barcodeless/prediction/hong/test images/3/IMG_0926.jpg
+barcodeless/prediction/hong/test images/3/IMG_0927.jpg
+barcodeless/prediction/hong/test images/3/IMG_0928.jpg
+barcodeless/prediction/hong/test images/3/IMG_0929.jpg
+barcodeless/prediction/hong/test images/3/IMG_0930.jpg
+barcodeless/prediction/hong/test images/3/IMG_0931.jpg
+barcodeless/prediction/hong/test images/3/IMG_0932.jpg
+barcodeless/prediction/hong/test images/3/IMG_0933.jpg
+barcodeless/prediction/hong/test images/3/IMG_0934.jpg
+barcodeless/prediction/hong/test images/3/IMG_0935.jpg
+barcodeless/prediction/hong/test images/3/IMG_0937.jpg
+barcodeless/prediction/hong/test images/3/IMG_0938.jpg
+barcodeless/prediction/hong/test images/3/IMG_0939.jpg
+barcodeless/prediction/hong/test images/3/IMG_0940.jpg
+barcodeless/prediction/hong/test images/3/IMG_0941.jpg
+barcodeless/prediction/hong/test images/4/IMG_0936.jpg
+barcodeless/prediction/hong/test images/4/IMG_0941.jpg
+barcodeless/prediction/hong/test images/4/IMG_0942.jpg
+barcodeless/prediction/hong/test images/4/IMG_0943.jpg
+barcodeless/prediction/hong/test images/4/IMG_0944.jpg
+barcodeless/prediction/hong/test images/4/IMG_0945.jpg
+barcodeless/prediction/hong/test images/4/IMG_0946.jpg
+barcodeless/prediction/hong/test images/4/IMG_0947.jpg
+barcodeless/prediction/pred_yolo/__pycache__/__init__.cpython-39.pyc
+barcodeless/prediction/pred_yolo/__pycache__/__init__.cpython-310.pyc
+barcodeless/prediction/pred_yolo/__pycache__/darknet_cv.cpython-39.pyc
+barcodeless/prediction/pred_yolo/__pycache__/darknet_cv.cpython-310.pyc
+barcodeless/prediction/pred_yolo/__pycache__/yolo_effi.cpython-39.pyc
+barcodeless/prediction/pred_yolo/__pycache__/yolo_effi.cpython-310.pyc
+barcodeless/templatetags/__pycache__/__init__.cpython-39.pyc
+barcodeless/templatetags/__pycache__/__init__.cpython-310.pyc
+barcodeless/templatetags/__pycache__/calculater.cpython-39.pyc
+barcodeless/templatetags/__pycache__/calculater.cpython-310.pyc
+barcodeless/templatetags/__pycache__/multiply.cpython-310.pyc
+conf/__pycache__/__init__.cpython-39.pyc
+conf/__pycache__/settings.cpython-39.pyc
+conf/__pycache__/urls.cpython-39.pyc
+conf/__pycache__/wsgi.cpython-39.pyc
+barcodeless/prediction/pred_yolo/yolov4-obj_4_add_best.weights

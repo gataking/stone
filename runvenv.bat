@@ -1,1 +1,1 @@
-./venv/Scripts/activate
+./venv_39/Scripts/activate

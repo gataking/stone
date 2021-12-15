@@ -31,10 +31,10 @@
         float: left;
     }
     .basketdiv .row > .subdiv:nth-child(1) {
-        width: 50%;
+        width: 30%;
     }
     .basketdiv .row > .subdiv:nth-child(2) {
-        width: 40%;
+        width: 55%;
     }
     .basketdiv .row > .subdiv:nth-child(3) {
         width: 10%;
@@ -54,7 +54,7 @@
     }
     .basketdiv .row.data > div > div {
         height: 60px;
-        line-height: 60px;
+        line-height: 35px;
     }
         .basketdiv .data .num .updown {
             color: #70BFB9;
@@ -78,10 +78,10 @@
         width: 80%;
     }
     .basketdiv .basketprice {
-        width: 33%;
+        width: 30%;
     }
     .basketdiv .num {
-        width: 33%;
+        width: 30%;
       min-width: 105px;
     }
     .basketdiv .sum {
@@ -112,8 +112,7 @@
         width: 100%;
     }
     .basketdiv .data .pname {
-        text-align: left !important;
-      line-height: 1.2 !important;
+        text-align: center;
     }
     .basketdiv .data .price, .basketdiv .data .sum, .basketdiv .data .point {
         text-align: right;
@@ -197,7 +196,13 @@
 
 .orderform .p_num {
     text-align: center;
-    width: 40px;
+    width: 30px;
     font-size: 1em;
     background-color: #FFEFF7;
+}
+
+
+.row {
+    margin-right: 0; 
+    margin-left: 0;
 }

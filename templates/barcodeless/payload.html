@@ -1,0 +1,28 @@
+{% extends "barcodeless/base.html" %}
+{% block content %}
+{% load static %}
+
+<div style="text-align:center; margin-top:200px;">
+    <h2 style="text-align:center; font-weight: bold; font-size: 50px; color: #FF8B8E">
+        카드를 넣어주세요 
+    </h2>
+</div>
+
+<div style='text-align:center; margin-top:30px;'>
+    <div class='container'>
+        <div class='row' style="height:350px; margin-bottom: 25px;">
+            <div class="col-3"></div>
+            <div class='col-6' style="border:solid 6px #70bfb9; border-radius:20px;">
+                <a href='/barcodeless/pay/' style='text-decoration:none; color:black;'>
+                    <h1 style="margin-top:20px;"></h1>
+                    <button class="btn" id="btn" type="submit" >
+                        <img class="btn-img" src="{% static 'barcodeless/payload.png' %}" alt="payload" width="300" height="300">
+                     </button>
+                </a>
+            </div>
+            <div class="col-3"></div>
+        </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
