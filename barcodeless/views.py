@@ -25,7 +25,7 @@ def cam(request):
     )
     
 
-
+# upload 함수는 이미지 파일을 받아 media path에 저장하는 함수이다.
 def upload(request):
     if request.method == "POST":
         try:
@@ -54,6 +54,8 @@ def pay(request):
         'barcodeless/pay.html'
     )
 
+
+## 결과 테스트 과정에서 사용
 def main(request):
     context = {
             "items" : [["누가바", 400, 3], ["빵또아", 1000, 2]],

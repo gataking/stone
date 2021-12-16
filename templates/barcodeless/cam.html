@@ -1,11 +1,11 @@
+<!-- cam.html 은 사진을 촬영하거나 앨범에 있는 사진을 선택하여 업로드할 수 있는 html 파일 입니다 -->
 {% extends "barcodeless/base.html" %}
 {% block content %}
 {% load static %}
 
-
 <div class="container">
     <div class="image-upload" id="image-upload">
-
+    <!-- 사진을 촬영하거나 앨범에 있는 사진을 선택하여 업로드할 수 있도록 설정합니다 -->
         <form action="/barcodeless/upload/" method="post" enctype="multipart/form-data">
             {% csrf_token %}
             <div class="button">
@@ -30,6 +30,7 @@
     
     <div class="image-show" id="image-show" style='height:500px'></div>
 
+    <!-- '촬영하기' 버튼을 설정합니다 -->
     <div style='text-align:center; margin-top:0px;'>  
         <div style='margin-top:70px; text-align:center; margin-top:70px;'>
             <a href='/barcodeless/main/'>

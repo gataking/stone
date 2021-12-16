@@ -22,6 +22,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('barcodeless/', include('barcodeless.urls')),
 ]
-
+# runserver 명령을 통해 구동하는 개발 서버에서는 media 파일을 자동으로 서빙해 주지 않습니다. 
+# 따라서 수동으로 urlpattern을 추가함으로서 서빙해야합니다.
+# 이 설정을 추가하면 MEDIA_URL로 들어오는 요청에 대해 MEDIA_ROOT 경로를 탐색하게 됩니다.
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

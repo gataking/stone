@@ -121,7 +121,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 
-## 3차시도 
 STATIC_URL = '/static/'
 
 STATIC_DIR = os.path.join(BASE_DIR, 'static')
@@ -131,9 +130,13 @@ STATICFILES_DIRS = [
 ]
 
 STATIC_ROOT = os.path.join(ROOT_DIR, '.static_root')
-
+# 앞에 /를 더하면 절대 경로로 바뀐다.
+# 127.0.0.1:8000/media/image/photo_name.jpg 
+# 만약 /를 안 붙이면, 내가 이 파일에 접속할 때 상대경로로 URL이 생성된다. -> 지저분해진다. 
+# 127.0.0.1:8000/admin/rooms/photo/1/change/media/image/photo_name.jpg 
+# 이 URL로 접속하면, 위의 미디어 파일의 경로로 들어가도록 하는 것이다
 MEDIA_URL = "/media/"
-
+# 미디어 파일의 경로 설정
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 
 # Default primary key field type

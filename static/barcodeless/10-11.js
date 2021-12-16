@@ -79,5 +79,6 @@ Number.prototype.formatNumber = function(){
     let regex = /(^[+-]?\d+)(\d{3})/;
     let nstr = (this + '');
     while (regex.test(nstr)) nstr = nstr.replace(regex, '$1' + ',' + '$2');
-    return nstr;
+    // return nstr;
+    return this;
 };

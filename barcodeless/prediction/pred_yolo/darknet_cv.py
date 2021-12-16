@@ -2,6 +2,7 @@ import cv2
 import numpy as np
 import os
 
+# yoloV4 결과물이 나오는 함수
 def yolo(IMAGE_PATH):
     # yolo load
     net = cv2.dnn.readNet("yolov4-obj_4_add_best.weights", "yolov4-obj_4_add.cfg")
@@ -10,13 +11,7 @@ def yolo(IMAGE_PATH):
     with open('obj.names', "r", encoding='UTF-8') as f:
         classes = [line.strip() for line in f.readlines()]
     layer_names = net.getLayerNames()
-    # print("-"*30)
-    # print(layer_names[326])
-    # print(layer_names[352])
-    # print(layer_names[378])
-    # print("-"*30)
-    # print(net.getUnconnectedOutLayers())
-    # print("-"*30)
+
     output_layers = [layer_names[i - 1] for i in net.getUnconnectedOutLayers()]
     colors = np.random.uniform(0, 255, size=(len(classes), 3))
 
@@ -69,18 +64,22 @@ def yolo(IMAGE_PATH):
             cv2.rectangle(img, (x, y), (x + w, y + h), color, 2)
             cv2.putText(img, label, (x, y - 3), font, 1, color, 3)
 
+            # 크롭을 위한 이미지 좌표 확인
             print(f"x{x}, y{y}, w{w}, h{h}")
             crop_image = img[y : y+h, x : x+w]
-            # cv2.imshow("crop",crop_image)
-            # print(os.getcwd())
-            # print("\n")
+
             name = IMAGE_PATH.split("/")[-1]
             # print(f"C:/Users/user/Desktop/workspace/stone/media/result/{i:02d}_{label}_{name}")
 
-            bg = cv2.imread('./test1.jpg')
-            cv2.imshow("bg", bg)
+            # EfficientNet의 결과를 좋게 만들기 위한 백그라운드 생성
+            bg = np.zeros((height, width,3), np.uint8)
+            cv2.rectangle(bg, (0,0), (width,height), (255,255,255), -1)
+            
+            bg[y : y+h, x : x+w] = crop_image
 
-            cv2.imwrite(f'C:/Users/user/Desktop/workspace/stone/media/result/{i:02d}_{label}_{name}', crop_image)
+            # 이미지 저장 부분
+            # cv2.imwrite(f'C:/Users/user/Desktop/workspace/stone/media/result/{i:02d}_{label}_{name}', crop_image)
+            cv2.imwrite(f'C:/Users/user/Desktop/workspace/stone/media/result/{i:02d}_{label}_{name}', bg)
 
 
     # cv2.imshow("Image", img)

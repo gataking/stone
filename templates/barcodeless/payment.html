@@ -1,13 +1,16 @@
+<!-- payment.html은 결제 수단을 선택하기 위한 html 파일입니다 -->
 {% extends "barcodeless/base.html" %}
 {% block content %}
 {% load static %}
 
+<!-- '원하시는 결제 수단을 선택해주세요'라는 메세지를 전하기 위해 설정합니다 -->
 <div style="text-align:center; margin-top:30px;">
     <h2 style="text-align:center; font-weight: bold; font-size: 50px; color: #FF8B8E">
         원하시는 결제 수단을 선택해주세요
     </h2>
 </div>
 
+<!-- 카드결제와 현금결제 두가지의 옵션을 만들고, 각 옵션과 관련된 이미지를 첨부한 뒤, 이미지 클릭시 다음 페이지로 넘어가도록 설정합니다 -->
 <div style='text-align:center; margin-top:30px;'>
     <div class='container'>
         <div class='row' style="height:350px; margin-bottom: 25px;">

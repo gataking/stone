@@ -1,19 +1,24 @@
 from .darknet_cv import *
 from .yolo_effi import *
 
+# 웹페이지로 부터 이미지를 전달 받아 yoloV4 와 EfficientNet을 통해 결과를 반환 하는 함수
 def predict(IMAGE_PATH):
+    # 남아있는 yoloV4 결과 이미지 삭제
     rm_results()
+    # yoloV4 연산
     yolo(IMAGE_PATH)
+    # yoloV4 결과 이미지 리스트
     image_ls = yolo_result_list()
+    # EfficientNet 연산 결과 반환
     count_dict = effi(image_ls)
 
     # print(count_dict)
-
     keys = list(count_dict.keys())
     # print(keys)
     cnt = list(count_dict.values())
     # print(cnt)
 
+    # 상품별 가격 Dict 
     price = {
         '라베스트' : 2000,
         '로투스' : 1000,

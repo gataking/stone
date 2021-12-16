@@ -1,13 +1,16 @@
+<!-- start.html은 'barcodeless'의 시작 페이지이며, 원하는 계산 방법을 선택하기 위한 html 파일입니다 -->
 {% extends "barcodeless/base.html" %}
 {% block content %}
 {% load static %}
-{% comment %} 작성 부분 {% endcomment %}
+
+<!-- '원하시는 계산 방법을 선택하세요' 메세지 삽입합니다 -->
 <div style="text-align:center; margin-top:30px;">
     <h2 style="text-align:center; font-weight: bold; font-size: 50px; color: #FF8B8E">
         원하시는 계산 방법을 선택하세요
     </h2>
 </div>
 
+<!-- 바코드/촬영 두가지 옵션을 설정하고, 해당하는 이미지를 삽입한 뒤, 이미지 클릭시 다음 페이지로 넘어가도록 설정합니다 -->
 <div style='text-align:center; margin-top:30px;'>
     <div class='container'>
         <div class='row' style="height:350px; margin-bottom: 25px;">

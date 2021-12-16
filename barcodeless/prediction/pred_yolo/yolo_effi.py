@@ -24,9 +24,9 @@ image_size = EfficientNet.get_image_size(model_name)
 
 os.chdir("barcodeless/prediction/pred_yolo")
 PATH = os.getcwd().replace("\\", "/")
-print("-!"*30)
+# print("-!"*30)
 
-print(PATH)
+# print(PATH)
 EFFICIENTNET = [ PATH+"/efficient_weights/"+i for i in os.listdir("efficient_weights")]
 # print(EFFICIENTNET)
 efficientnet_path = {}
@@ -36,7 +36,7 @@ for net in EFFICIENTNET:
     efficientnet_path[category] = path
 
 
-print("-"*40)
+# print("-"*40)
 # print(efficientnet_path)
 
 
@@ -103,12 +103,14 @@ CLASS_NAMES = {
 }
 # print(EFFICIENTNET)
 
+# yoloV4 결과물로 저장된 이미지 리스트 만들기
 def yolo_result_list():
     res_images = os.listdir("C:/Users/user/Desktop/workspace/stone/media/result")
     print(f"res_images{res_images}")
     return res_images
 
 
+# Efficientnet 이미지 연산 함수 
 def effi(IMAGE_LIST):
     items = []
     for image in IMAGE_LIST:
@@ -125,12 +127,6 @@ def effi(IMAGE_LIST):
             model.load_state_dict(torch.load(efficientnet_path[type], map_location=device))
             # print(model)
 
-            image_list = [ "C:/Users/user/Desktop/workspace/stone/media"+"/result/"+image for image in os.listdir("C:/Users/user/Desktop/workspace/stone/media/result") ]  # test image 넣기
-
-            # print(image_list)
-
-            # for i in range(len(image_list)):
-            # print(image_list[i].split('/')[-1].split("_")[1])
 
             image_in = "C:/Users/user/Desktop/workspace/stone/media"+"/result/"+image
 
@@ -139,9 +135,6 @@ def effi(IMAGE_LIST):
                 image = cv2.imread(image_in, cv2.IMREAD_ANYCOLOR)
                 image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 
-                #cv2.imshow(f"test{i}",image)
-                #cv2.waitKey(0)
-                #cv2.destroyAllWindows()
 
                 # Preprocess image
                 tfms = transforms.Compose([transforms.Resize(224), transforms.ToTensor(),
@@ -151,15 +144,13 @@ def effi(IMAGE_LIST):
                 # Classify
                 model.eval()
                 with torch.no_grad():
-                    # print(img)
-                    # imshow(img)
-                    # img = img.cuda()
+
                     outputs = model(img)
 
-                # Print predictions
-                # plt.imshow(test_image)
                 print(image_in)
                 print(f"{type}")
+
+                # Efficient 결과로 나온 예측 % 값중에 가장 큰 값을 items 리스트로 저장 
                 for idx in torch.topk(outputs, k=1).indices.squeeze(0).tolist():    
                     prob = torch.softmax(outputs, dim=1)[0, idx].item()
                     print('[', class_names[str(idx)], ': {p:.2f}% ]'.format(p=prob*100))
@@ -172,6 +163,7 @@ def effi(IMAGE_LIST):
     return Counter(items)   
 
 
+# yoloV4 결과 이미지를 삭제하기 위한 함수
 def rm_results():
     res_images = os.listdir("C:/Users/user/Desktop/workspace/stone/media/result")
     # print(res_images)
@@ -181,6 +173,8 @@ def rm_results():
 
 if __name__ in "__main__":
     # "C:/Users/user/Desktop/workspace/stone/media/images"
+    rm_results()
+
     IMAGE_PATH = "test.jpg"
     yolo(IMAGE_PATH)
     image_ls = yolo_result_list()
@@ -188,4 +182,3 @@ if __name__ in "__main__":
     effi(image_ls)
 
 
-    rm_results()

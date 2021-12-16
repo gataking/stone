@@ -1,3 +1,4 @@
+<!-- main.html은 cam.html에서 사진 촬영/ 사진 업로드를 한 뒤의 결과를 장바구니 형식으로 보여주기 위한 html 파일입니다 -->
 {% extends "barcodeless/base.html" %}
 {% block content %}
 {% load static %}
@@ -13,7 +14,7 @@
 
 
 <body>
-
+    <!-- 장바구니의 기능(상품명, 가격, 수량, 합계, 삭제)을 위한 설정을 합니다 -->
     <form name="orderform" id="orderform" method="post" class="orderform" action="/Page" onsubmit="return false;">
     
             <input type="hidden" name="cmd" value="order">
@@ -34,6 +35,7 @@
                     </div>
                     <div class="split"></div>
                 </div>
+                <!-- 상품개수에 따른 합산을 위한 사용자 정의 템플릿 함수를 불러옵니다 -->
                 {% load calculater %}
                 {% if items %}
                     {% for item in items %}
@@ -63,7 +65,7 @@
                 {% endif %}
 
             </div>
-            
+            <!-- 선택상품 삭제, 장바구니 비우기, 상품개수, 합계금액을 위한 버튼을 설정합니다 -->
             <div class="right-align basketrowcmd">
                 <a href="javascript:void(0)" class="abutton" onclick="javascript:basket.delCheckedItem();" style="display:none;">선택상품삭제</a>
                 <a href="javascript:void(0)" class="abutton" onclick="javascript:basket.delAllItem();">장바구니비우기</a>
@@ -74,7 +76,8 @@
                 <div class="bigtext right-align box blue summoney" id="sum_p_price">
                     합계금액: {% tot_price items %}원
                 </div>
-    
+
+            <!-- 선택한 상품 주문을 위한 버튼을 설정합니다 -->
             <div id="goorder" class="">
                 <div class="clear"></div>
                 <div class="buttongroup center-align cmd">

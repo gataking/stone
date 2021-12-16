@@ -1,8 +1,9 @@
+<!-- info.html은 'barcodeless'의 사용 방법을 설명해주기 위한 html 파일입니다 -->
 {% extends "barcodeless/base.html" %}
 {% block content %}
 {% load static %}
 <div style='text-align:center;'>
-
+<!-- 사용설명서 버튼을 생성합니다 -->
   {% comment %} <div style="margin-top:50px; ">
     <span style='color:#FFBFC0; border-radius:10px; font-size:48px; font-weight:bold;'>사용 설명서</span>
   </div> {% endcomment %}
@@ -11,7 +12,7 @@
     <button type="button" class="btn btn-success" style='width:450px; border: none; height:120px; font-size:60px; color: #FF8B8E; background-color: #FFEFF7'>사용 설명서</button>
   </div>
 
-
+  <!-- 4장의 사진을 사용하여 사용설명서를 완성합니다 -->
   <div class='container' style='margin:auto'> 
     <div class='row' style='margin-bottom:72px'>
       <div class="col-md-1"></div>
@@ -41,6 +42,7 @@
     </div>
   </div>
 
+  <!-- 시작하기 버튼을 생성함으로써 다음 단계로 넘어갈 수 있도록 합니다 -->
   <div>
     <a href='/barcodeless/cam/'>
         <button type="button" class="btn btn-success" style='margin-top:30px; width:350px; height:120px; font-size:50px;  border:none; color: #FF8B8E; background-color: #FFF89E;'>시작하기</button>
