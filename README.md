@@ -162,6 +162,12 @@ mosaic=1
 
 ### 1. 데이터 레이블링
  - 클래스별 폴더로 이미지 분류를 통해 레이블링
+   - /bar
+   - /cone
+   - /sand
+   - /bucket
+   - /snack
+   - /drink
 
 ### 2. 사전학습된 efficientnet-b0 모델을 불러온다
  - **pip install efficientnet_pytorch** 명령어로 설치하고
